@@ -1,0 +1,13 @@
+@media screen and (max-width: 480px) {
+  /* 480px以下に適用されるCSS（スマホ用） */
+  .loginContainer {
+    width: 100%;
+    height: 100vh;
+
+    &__form {
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+  }
+}

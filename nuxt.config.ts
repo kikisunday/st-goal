@@ -8,7 +8,11 @@ export default defineNuxtConfig({
     global: true,
     dirs: ['~/components'],
   },
-  css: ['assets/style.scss', 'vuetify/lib/styles/main.sass'],
+  css: [
+    'assets/reset.css',
+    'assets/style.scss',
+    'vuetify/lib/styles/main.sass',
+  ],
   devtools: { enabled: true },
   modules: [
     (_options, nuxt) => {
@@ -28,3 +32,4 @@ export default defineNuxtConfig({
     },
   },
 });
+
