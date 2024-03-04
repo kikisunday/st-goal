@@ -5,10 +5,10 @@ console.log(123);
 <template>
   <div class="loginContainer">
     <div class="loginContainer__form">
+      <h1 class="loginContainer__title">ログイン画面</h1>
       <v-sheet class="mx-auto" width="300">
         <v-card class="mx-auto px-6 py-8" max-width="344">
           <v-form ref="form">
-            <h1 class="loginContainer__title mx-auto">ログイン画面</h1>
             <v-text-field
               v-model="name"
               :counter="10"
