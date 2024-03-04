@@ -2,8 +2,15 @@
   <div>
     <NuxtLayout>
       <v-app>
-        <NuxtPage />
+        <div class="content">
+          <NuxtPage />
+        </div>
       </v-app>
     </NuxtLayout>
   </div>
 </template>
+
+<style>
+@import './assets/reset.css';
+</style>
+

@@ -9,4 +9,6 @@ semi: true
 quoteProps: 'preserve'
 trailingComma: 'all'
 useTabs: false
+# endOfLine: 'auto'
+endOfLine: 'crlf'
 overrides: [{ files: ['*.yml'], options: { tabwidth: 2 } }]
